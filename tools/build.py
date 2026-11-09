@@ -153,7 +153,7 @@ def index_html(waypoints):
     slug = slug_of(latest)
     travelled = first["ly_from_core"] - latest["ly_from_core"]
     percent = travelled / first["ly_from_core"] * 100
-    cards = "\n".join(waypoint_card(w) for w in waypoints)
+    cards = "\n".join(waypoint_card(w) for w in reversed(waypoints))
     body = f"""<header class="hero">
   <img class="hero-image" src="{slug}/{slug}_{hero_shot(latest)}.jpg" width="1600" height="900" alt="">
   <div class="hero-text">
