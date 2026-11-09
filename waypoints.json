@@ -1,0 +1,292 @@
+[
+  {
+    "wp": 1,
+    "system": "Rikalha-Ryuga",
+    "galaxy": "Euclid",
+    "ly_from_core": 1157445,
+    "jump_ly": null,
+    "planet_coords": null,
+    "glyphs": null,
+    "found": {
+      "class": null,
+      "slots": null
+    },
+    "s_class": {
+      "name": "Blessed-ο",
+      "damage": 414.4,
+      "shield": 192.8,
+      "hyperdrive": 657.0,
+      "manoeuvrability": 477.6
+    },
+    "colours": null,
+    "images": [
+      "thrusters",
+      "hangar",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": "Starting point. No scan shot in this batch."
+  },
+  {
+    "wp": 2,
+    "system": "Ozlovka-Adnyem IX",
+    "galaxy": "Euclid",
+    "ly_from_core": 1155598,
+    "jump_ly": 1847,
+    "planet_coords": "+3.69, -77.95",
+    "glyphs": null,
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Hunter-υ",
+      "damage": 392.4,
+      "shield": 204.2,
+      "hyperdrive": 636.1,
+      "manoeuvrability": 473.0
+    },
+    "colours": null,
+    "images": [
+      "flight",
+      "hangar",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": "No ground glyph strip in this batch."
+  },
+  {
+    "wp": 3,
+    "system": "Socarsu XIV",
+    "galaxy": "Euclid",
+    "ly_from_core": 1153642,
+    "jump_ly": 1956,
+    "planet_coords": "-22.26, +154.15",
+    "glyphs": null,
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Flame-ρ",
+      "damage": 354.0,
+      "shield": 203.1,
+      "hyperdrive": 660.1,
+      "manoeuvrability": 474.3
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "upgrade",
+      "hangar"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  },
+  {
+    "wp": 4,
+    "system": "Tachee-Unji VII",
+    "galaxy": "Euclid",
+    "ly_from_core": 1151262,
+    "jump_ly": 2380,
+    "planet_coords": "+7.97, +140.65",
+    "glyphs": null,
+    "found": {
+      "class": "C",
+      "slots": "33+23"
+    },
+    "s_class": {
+      "name": "Glass Soul-λ",
+      "damage": 345,
+      "shield": 190,
+      "hyperdrive": 631,
+      "manoeuvrability": 461
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": "S-class stats are whole numbers because the screen clipped the decimals."
+  },
+  {
+    "wp": 5,
+    "system": "Ogawar VII",
+    "galaxy": "Euclid",
+    "ly_from_core": 1149268,
+    "jump_ly": 1994,
+    "planet_coords": "+32.04, -1.47",
+    "glyphs": null,
+    "found": {
+      "class": "B",
+      "slots": "37+26"
+    },
+    "s_class": {
+      "name": "Fragment-πν",
+      "damage": 431.5,
+      "shield": 199.3,
+      "hyperdrive": 660.7,
+      "manoeuvrability": 474.9
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  },
+  {
+    "wp": 6,
+    "system": "Avressett XIV",
+    "galaxy": "Euclid",
+    "ly_from_core": 1147284,
+    "jump_ly": 1984,
+    "planet_coords": "+16.11, +133.23",
+    "glyphs": null,
+    "found": {
+      "class": "B",
+      "slots": "37+26"
+    },
+    "s_class": {
+      "name": "Blessed-υ",
+      "damage": 344.0,
+      "shield": 205.5,
+      "hyperdrive": 655.3,
+      "manoeuvrability": 467.5
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  },
+  {
+    "wp": 7,
+    "system": "Emiess",
+    "galaxy": "Euclid",
+    "ly_from_core": 1145215,
+    "jump_ly": 2069,
+    "planet_coords": "+12.87, +50.39",
+    "glyphs": null,
+    "found": {
+      "class": "B",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "Atlas-Fire-ζ",
+      "damage": 393.4,
+      "shield": 192.5,
+      "hyperdrive": 652.7,
+      "manoeuvrability": 482.9
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  },
+  {
+    "wp": 8,
+    "system": "Dabash-Yuxi",
+    "galaxy": "Euclid",
+    "ly_from_core": 1141469,
+    "jump_ly": 3746,
+    "planet_coords": "+34.54, -81.33",
+    "glyphs": null,
+    "found": {
+      "class": "B",
+      "slots": "39+27"
+    },
+    "s_class": {
+      "name": "Recovered-πσ",
+      "damage": 327.3,
+      "shield": 190.4,
+      "hyperdrive": 659.6,
+      "manoeuvrability": 468.8
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "thrusters",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": "Long jump: may mean a skipped stop."
+  },
+  {
+    "wp": 9,
+    "system": "Besanour",
+    "galaxy": "Euclid",
+    "ly_from_core": 1139607,
+    "jump_ly": 1862,
+    "planet_coords": "+39.13, +36.75",
+    "glyphs": null,
+    "found": {
+      "class": "B",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "θ-Salvaged",
+      "damage": 382.4,
+      "shield": 199.1,
+      "hyperdrive": 633.4,
+      "manoeuvrability": 457.1
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  },
+  {
+    "wp": 10,
+    "system": "Uchuor-Unbun",
+    "galaxy": "Euclid",
+    "ly_from_core": 1137740,
+    "jump_ly": 1867,
+    "planet_coords": "-37.78, +59.85",
+    "glyphs": null,
+    "found": {
+      "class": "A",
+      "slots": "39+28"
+    },
+    "s_class": {
+      "name": "Atlas-Fire-μα",
+      "damage": 449.0,
+      "shield": 193.5,
+      "hyperdrive": 656.9,
+      "manoeuvrability": 470.7
+    },
+    "colours": null,
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": null,
+    "notes": null
+  }
+]
