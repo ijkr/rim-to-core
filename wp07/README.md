@@ -6,7 +6,7 @@
 | Distance from core | 1,145,215 LY |
 | Jump from previous | 2,069 LY |
 | Planet coordinates | +12.87, +50.39 |
-| Glyphs | – |
+| Glyphs | 10AA7E7E97E4 |
 | Ship as found | B-class, 38+27 slots |
 | S-class ship | Atlas-Fire-ζ |
 | S-class stats | Damage 393.4 · Shield 192.5 · Hyperdrive 652.7 · Manoeuvrability 482.9 |

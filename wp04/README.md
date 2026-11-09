@@ -6,7 +6,7 @@
 | Distance from core | 1,151,262 LY |
 | Jump from previous | 2,380 LY |
 | Planet coordinates | +7.97, +140.65 |
-| Glyphs | – |
+| Glyphs | 51E67F7F47EE |
 | Ship as found | C-class, 33+23 slots |
 | S-class ship | Glass Soul-λ |
 | S-class stats | Damage 345 · Shield 190 · Hyperdrive 631 · Manoeuvrability 461 |

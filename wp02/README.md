@@ -6,10 +6,12 @@
 | Distance from core | 1,155,598 LY |
 | Jump from previous | 1,847 LY |
 | Planet coordinates | +3.69, -77.95 |
-| Glyphs | – |
+| Glyphs | ?1AF7F7FC7F6 |
 | Ship as found | C-class, 35+24 slots |
 | S-class ship | Hunter-υ |
 | S-class stats | Damage 392.4 · Shield 204.2 · Hyperdrive 636.1 · Manoeuvrability 473.0 |
+
+> First glyph (the planet) is unknown: no ground shot at this stop.
 
 > No ground glyph strip in this batch.
 

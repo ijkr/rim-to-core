@@ -6,7 +6,7 @@
     "ly_from_core": 1157445,
     "jump_ly": null,
     "planet_coords": null,
-    "glyphs": null,
+    "glyphs": "?0217F7FF7F9",
     "found": {
       "class": null,
       "slots": null
@@ -25,7 +25,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": "Starting point. No scan shot in this batch."
   },
   {
@@ -35,7 +35,7 @@
     "ly_from_core": 1155598,
     "jump_ly": 1847,
     "planet_coords": "+3.69, -77.95",
-    "glyphs": null,
+    "glyphs": "?1AF7F7FC7F6",
     "found": {
       "class": "C",
       "slots": "35+24"
@@ -54,7 +54,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": "No ground glyph strip in this batch."
   },
   {
@@ -64,7 +64,7 @@
     "ly_from_core": 1153642,
     "jump_ly": 1956,
     "planet_coords": "-22.26, +154.15",
-    "glyphs": null,
+    "glyphs": "40897F7F87F3",
     "found": {
       "class": "C",
       "slots": "35+24"
@@ -83,7 +83,7 @@
       "hangar"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   },
   {
@@ -93,7 +93,7 @@
     "ly_from_core": 1151262,
     "jump_ly": 2380,
     "planet_coords": "+7.97, +140.65",
-    "glyphs": null,
+    "glyphs": "51E67F7F47EE",
     "found": {
       "class": "C",
       "slots": "33+23"
@@ -112,7 +112,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": "S-class stats are whole numbers because the screen clipped the decimals."
   },
   {
@@ -122,7 +122,7 @@
     "ly_from_core": 1149268,
     "jump_ly": 1994,
     "planet_coords": "+32.04, -1.47",
-    "glyphs": null,
+    "glyphs": "40ED7E7F17EB",
     "found": {
       "class": "B",
       "slots": "37+26"
@@ -141,7 +141,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   },
   {
@@ -151,7 +151,7 @@
     "ly_from_core": 1147284,
     "jump_ly": 1984,
     "planet_coords": "+16.11, +133.23",
-    "glyphs": null,
+    "glyphs": "51E77E7ED7E7",
     "found": {
       "class": "B",
       "slots": "37+26"
@@ -170,7 +170,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   },
   {
@@ -180,7 +180,7 @@
     "ly_from_core": 1145215,
     "jump_ly": 2069,
     "planet_coords": "+12.87, +50.39",
-    "glyphs": null,
+    "glyphs": "10AA7E7E97E4",
     "found": {
       "class": "B",
       "slots": "38+27"
@@ -199,7 +199,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   },
   {
@@ -209,7 +209,7 @@
     "ly_from_core": 1141469,
     "jump_ly": 3746,
     "planet_coords": "+34.54, -81.33",
-    "glyphs": null,
+    "glyphs": "40077D7E27DD",
     "found": {
       "class": "B",
       "slots": "39+27"
@@ -228,7 +228,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": "Long jump: may mean a skipped stop."
   },
   {
@@ -238,7 +238,7 @@
     "ly_from_core": 1139607,
     "jump_ly": 1862,
     "planet_coords": "+39.13, +36.75",
-    "glyphs": null,
+    "glyphs": "11A57D7DF7DA",
     "found": {
       "class": "B",
       "slots": "35+24"
@@ -257,7 +257,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   },
   {
@@ -267,7 +267,7 @@
     "ly_from_core": 1137740,
     "jump_ly": 1867,
     "planet_coords": "-37.78, +59.85",
-    "glyphs": null,
+    "glyphs": "30BE7C7DC7D7",
     "found": {
       "class": "A",
       "slots": "39+28"
@@ -286,7 +286,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": null,
+    "posted": true,
     "notes": null
   }
 ]

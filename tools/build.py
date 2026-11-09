@@ -31,6 +31,12 @@ SHOT_LABELS = {
     "thrusters": "Thrusters",
     "upgrade": "S-class",
 }
+GLYPH_NAMES = dict(zip("0123456789ABCDEF", (
+    "Sunset", "Bird", "Face", "Diplo", "Eclipse", "Balloon", "Boat", "Bug",
+    "Dragonfly", "Galaxy", "Voxel", "Fish", "Tent", "Rocket", "Tree", "Atlas",
+)))
+GLYPH_NAMES["?"] = "Unknown"
+UNKNOWN_PLANET_NOTE = "First glyph (the planet) is unknown: no ground shot at this stop."
 SITE_TITLE = "Rim to Core"
 SITE_DESCRIPTION = (
     "A journey from the galactic rim to the core of Euclid in No Man's Sky, "
@@ -179,6 +185,18 @@ def waypoint_nav(previous, following):
     return f'<nav class="pager" aria-label="Waypoints">{"".join(links)}</nav>'
 
 
+def glyph_row(glyphs):
+    if not glyphs:
+        return ""
+    names = " · ".join(GLYPH_NAMES[g] for g in glyphs)
+    note = f'<dd class="glyph-note">{UNKNOWN_PLANET_NOTE}</dd>' if glyphs[0] == "?" else ""
+    return (
+        '<div><dt>Portal glyphs</dt>'
+        f'<dd class="glyph-code">{glyphs}</dd>'
+        f'<dd class="glyph-names">{names}</dd>{note}</div>\n'
+    )
+
+
 def waypoint_html(w, previous, following):
     slug = slug_of(w)
     s = w["s_class"]
@@ -188,7 +206,6 @@ def waypoint_html(w, previous, following):
         ("Distance from core", f"{number(w['ly_from_core'])} LY"),
         ("Jump from previous", jump),
         ("Planet coordinates", w["planet_coords"]),
-        ("Glyphs", w["glyphs"]),
         ("Ship as found", found),
         ("S-class ship", s["name"]),
         ("Damage", s["damage"]),
@@ -200,6 +217,7 @@ def waypoint_html(w, previous, following):
         f"<div><dt>{label}</dt><dd>{escape(str(value))}</dd></div>"
         for label, value in facts if value is not None
     )
+    fact_rows = glyph_row(w["glyphs"]) + fact_rows
     hero = hero_shot(w)
     shots = [hero] + [shot for shot in w["images"] if shot != hero]
     figures = []
@@ -263,6 +281,8 @@ def waypoint_readme(w):
         f"| S-class stats | {s_class_stats(w['s_class'])} |",
         "",
     ]
+    if w["glyphs"] and w["glyphs"][0] == "?":
+        lines += [f"> {UNKNOWN_PLANET_NOTE}", ""]
     if w["notes"]:
         lines += [f"> {w['notes']}", ""]
     lines += [f"![{shot}]({slug}_{shot}.jpg)\n" for shot in w["images"]]

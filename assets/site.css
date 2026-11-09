@@ -226,6 +226,21 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
 
 .facts dd { margin: 1px 0 0; font-weight: 600; font-variant-numeric: tabular-nums; }
 
+.facts .glyph-code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.facts .glyph-names,
+.facts .glyph-note {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
 .pager {
   display: flex;
   justify-content: space-between;
