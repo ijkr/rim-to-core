@@ -37,6 +37,7 @@ GLYPH_NAMES = dict(zip("0123456789ABCDEF", (
 )))
 GLYPH_NAMES["?"] = "Unknown"
 UNKNOWN_PLANET_NOTE = "First glyph (the planet) is unknown: no ground shot at this stop."
+GTM_ID = "GTM-WTL7LBSL"
 SITE_TITLE = "Rim to Core"
 SITE_DESCRIPTION = (
     "A journey from the galactic rim to the core of Euclid in No Man's Sky, "
@@ -115,7 +116,16 @@ def site_page(title, description, root, body):
 {body}
 <footer class="footer">
   <p>Screenshots from No Man's Sky by Hello Games. A fan project, not affiliated with the studio.</p>
+  <p><button class="link-button" id="consent-settings" type="button" hidden>Analytics settings</button></p>
 </footer>
+<div class="consent" id="consent" role="region" aria-label="Analytics choice" hidden>
+  <p>This site uses Google Analytics cookies to count visits. Is that OK?</p>
+  <div class="consent-actions">
+    <button id="consent-accept" type="button">Accept</button>
+    <button id="consent-decline" type="button">Decline</button>
+  </div>
+</div>
+<script src="{root}assets/consent.js" data-gtm-id="{GTM_ID}" defer></script>
 </body>
 </html>
 """
