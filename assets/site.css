@@ -137,7 +137,11 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
 }
 
 /* Home: waypoint cards */
-#waypoints-heading { font-size: 1.5rem; margin-bottom: 20px; }
+#waypoints-heading { font-size: 1.5rem; margin-bottom: 6px; }
+
+.legend { margin: 0 0 20px; color: var(--muted); font-size: 0.9rem; }
+
+.legend .class-change { margin-left: 0; }
 
 .cards {
   display: grid;

@@ -154,8 +154,10 @@ def index_html(waypoints):
     travelled = first["ly_from_core"] - latest["ly_from_core"]
     percent = travelled / first["ly_from_core"] * 100
     cards = "\n".join(waypoint_card(w) for w in reversed(waypoints))
+    hero = hero_shot(latest)
+    hero_alt = escape(f"{SHOT_LABELS[hero]}: {latest['s_class']['name']} at {latest['system']}")
     body = f"""<header class="hero">
-  <img class="hero-image" src="{slug}/{slug}_{hero_shot(latest)}.jpg" width="1600" height="900" alt="">
+  <img class="hero-image" src="{slug}/{slug}_{hero}.jpg" width="1600" height="900" alt="{hero_alt}">
   <div class="hero-text">
     <h1>{SITE_TITLE}</h1>
     <p class="lede">{escape(SITE_DESCRIPTION)}</p>
@@ -176,6 +178,7 @@ def index_html(waypoints):
   </section>
   <section aria-labelledby="waypoints-heading">
     <h2 id="waypoints-heading">Waypoints</h2>
+    <p class="legend"><span class="class-change">B &rarr; S</span> means the ship was B-class as found, then upgraded to S-class.</p>
     <ol class="cards">
 {cards}
     </ol>
