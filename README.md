@@ -5,7 +5,7 @@ logged one waypoint at a time.
 
 | # | System | LY from core | Jump | Found | S-class ship |
 |---|---|---|---|---|---|
-| [1](wp01/) | Rikalha-Ryuga | 1,157,445 | – | – | Blessed-ο |
+| [1](wp01/) | Rikalha-Ryuga | 1,157,445 | – | C-class, 32+22 slots | Blessed-ο |
 | [2](wp02/) | Ozlovka-Adnyem IX | 1,155,598 | 1,847 | C-class, 35+24 slots | Hunter-υ |
 | [3](wp03/) | Socarsu XIV | 1,153,642 | 1,956 | C-class, 35+24 slots | Flame-ρ |
 | [4](wp04/) | Tachee-Unji VII | 1,151,262 | 2,380 | C-class, 33+23 slots | Glass Soul-λ |
@@ -15,5 +15,6 @@ logged one waypoint at a time.
 | [8](wp08/) | Dabash-Yuxi | 1,141,469 | 3,746 | B-class, 39+27 slots | Recovered-πσ |
 | [9](wp09/) | Besanour | 1,139,607 | 1,862 | B-class, 35+24 slots | θ-Salvaged |
 | [10](wp10/) | Uchuor-Unbun | 1,137,740 | 1,867 | A-class, 39+28 slots | Atlas-Fire-μα |
+| [11](wp11/) | Oetsuna | 1,135,700 | 2,040 | C-class, 35+24 slots | Fire-O95/D93/600 |
 
 Data lives in [`waypoints.json`](waypoints.json).

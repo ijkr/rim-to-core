@@ -38,6 +38,10 @@ GLYPH_NAMES = dict(zip("0123456789ABCDEF", (
 GLYPH_NAMES["?"] = "Unknown"
 UNKNOWN_PLANET_NOTE = "First glyph (the planet) is unknown: no ground shot at this stop."
 GTM_ID = "GTM-WTL7LBSL"
+SOCIAL_LINKS = (
+    ("Instagram", "https://www.instagram.com/rimtocore/"),
+    ("Mastodon", "https://mastodon.social/@rimtocore"),
+)
 SITE_TITLE = "Rim to Core"
 SITE_DESCRIPTION = (
     "A journey from the galactic rim to the core of Euclid in No Man's Sky, "
@@ -101,6 +105,11 @@ def slug_of(w):
     return f"wp{w['wp']:02d}"
 
 
+def social_links():
+    # rel="me" lets Mastodon verify the site as the account's own.
+    return " · ".join(f'<a href="{url}" rel="me">{name}</a>' for name, url in SOCIAL_LINKS)
+
+
 def site_page(title, description, root, body):
     return f"""<!doctype html>
 <html lang="en">
@@ -115,6 +124,7 @@ def site_page(title, description, root, body):
 <body>
 {body}
 <footer class="footer">
+  <p class="social">Follow the journey: {social_links()}</p>
   <p>Screenshots from No Man's Sky by Hello Games. A fan project, not affiliated with the studio.</p>
   <p><button class="link-button" id="consent-settings" type="button" hidden>Analytics settings</button></p>
 </footer>
@@ -142,7 +152,7 @@ def waypoint_card(w):
       <p class="card-number">Waypoint {w['wp']}</p>
       <h3>{escape(w['system'])}</h3>
       <p class="card-ship">{escape(w['s_class']['name'])} <span class="class-change">{change}</span></p>
-      <p class="card-data"><span>{number(w['ly_from_core'])} LY</span><span>{jump}</span></p>
+      <p class="card-data"><span>{number(w['ly_from_core'])} LY</span> <span>{jump}</span></p>
     </div>
   </a>
 </li>"""
@@ -174,7 +184,7 @@ def index_html(waypoints):
     <div class="track" role="img" aria-label="{percent:.1f} percent of the way to the core">
       <span class="track-fill" style="width: {percent:.2f}%"></span>
     </div>
-    <p class="track-labels"><span>Rim</span><span>{percent:.1f}%</span><span>Core</span></p>
+    <p class="track-labels"><span>Rim</span> <span>{percent:.1f}%</span> <span>Core</span></p>
   </section>
   <section aria-labelledby="waypoints-heading">
     <h2 id="waypoints-heading">Waypoints</h2>

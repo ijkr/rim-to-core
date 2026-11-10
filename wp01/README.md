@@ -5,13 +5,11 @@
 | Galaxy | Euclid |
 | Distance from core | 1,157,445 LY |
 | Jump from previous | – LY |
-| Planet coordinates | – |
-| Glyphs | ?0217F7FF7F9 |
-| Ship as found | – |
+| Planet coordinates | -35.73, +141.52 |
+| Glyphs | 10217F7FF7F9 |
+| Ship as found | C-class, 32+22 slots |
 | S-class ship | Blessed-ο |
 | S-class stats | Damage 414.4 · Shield 192.8 · Hyperdrive 657.0 · Manoeuvrability 477.6 |
-
-> First glyph (the planet) is unknown: no ground shot at this stop.
 
 > Starting point. No scan shot in this batch.
 

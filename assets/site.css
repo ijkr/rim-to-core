@@ -321,3 +321,7 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
   .facts { position: static; }
   .hero { min-height: 62vh; }
 }
+
+.footer .social { margin-bottom: 8px; font-size: 0.95rem; }
+
+.social a { color: var(--text); }

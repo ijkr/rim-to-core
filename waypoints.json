@@ -5,11 +5,11 @@
     "galaxy": "Euclid",
     "ly_from_core": 1157445,
     "jump_ly": null,
-    "planet_coords": null,
-    "glyphs": "?0217F7FF7F9",
+    "planet_coords": "-35.73, +141.52",
+    "glyphs": "10217F7FF7F9",
     "found": {
-      "class": null,
-      "slots": null
+      "class": "C",
+      "slots": "32+22"
     },
     "s_class": {
       "name": "Blessed-ο",
@@ -18,7 +18,7 @@
       "hyperdrive": 657.0,
       "manoeuvrability": 477.6
     },
-    "colours": null,
+    "colours": "Red/pink & white, magenta thrusters",
     "images": [
       "thrusters",
       "hangar",
@@ -35,7 +35,7 @@
     "ly_from_core": 1155598,
     "jump_ly": 1847,
     "planet_coords": "+3.69, -77.95",
-    "glyphs": "?1AF7F7FC7F6",
+    "glyphs": "11AF7F7FC7F6",
     "found": {
       "class": "C",
       "slots": "35+24"
@@ -47,7 +47,7 @@
       "hyperdrive": 636.1,
       "manoeuvrability": 473.0
     },
-    "colours": null,
+    "colours": "Orange & black",
     "images": [
       "flight",
       "hangar",
@@ -55,7 +55,7 @@
     ],
     "caption": null,
     "posted": true,
-    "notes": "No ground glyph strip in this batch."
+    "notes": "No ground shot: glyphs come from the hangar, so they lead to the system rather than the ship's planet."
   },
   {
     "wp": 3,
@@ -76,7 +76,7 @@
       "hyperdrive": 660.1,
       "manoeuvrability": 474.3
     },
-    "colours": null,
+    "colours": "Black & red",
     "images": [
       "ground",
       "upgrade",
@@ -105,7 +105,7 @@
       "hyperdrive": 631,
       "manoeuvrability": 461
     },
-    "colours": null,
+    "colours": "Green & cream with black",
     "images": [
       "ground",
       "flight",
@@ -134,7 +134,7 @@
       "hyperdrive": 660.7,
       "manoeuvrability": 474.9
     },
-    "colours": null,
+    "colours": "Black, red & gold trim",
     "images": [
       "ground",
       "flight",
@@ -163,7 +163,7 @@
       "hyperdrive": 655.3,
       "manoeuvrability": 467.5
     },
-    "colours": null,
+    "colours": "Black/grey, pale mint panels, red & magenta thrusters",
     "images": [
       "ground",
       "flight",
@@ -192,7 +192,7 @@
       "hyperdrive": 652.7,
       "manoeuvrability": 482.9
     },
-    "colours": null,
+    "colours": "Blue & black, red lights",
     "images": [
       "ground",
       "flight",
@@ -221,7 +221,7 @@
       "hyperdrive": 659.6,
       "manoeuvrability": 468.8
     },
-    "colours": null,
+    "colours": "Black & white, pink/red hull, blue-white wings",
     "images": [
       "ground",
       "thrusters",
@@ -250,7 +250,7 @@
       "hyperdrive": 633.4,
       "manoeuvrability": 457.1
     },
-    "colours": null,
+    "colours": "Orange & white with black, magenta engine glow",
     "images": [
       "ground",
       "flight",
@@ -279,7 +279,7 @@
       "hyperdrive": 656.9,
       "manoeuvrability": 470.7
     },
-    "colours": null,
+    "colours": "Red/pink & black, magenta thrusters",
     "images": [
       "ground",
       "flight",
@@ -288,5 +288,34 @@
     "caption": null,
     "posted": true,
     "notes": null
+  },
+  {
+    "wp": 11,
+    "system": "Oetsuna",
+    "galaxy": "Euclid",
+    "ly_from_core": 1135700,
+    "jump_ly": 2040,
+    "planet_coords": "-46.92, +12.73",
+    "glyphs": "30457C7D87D3",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Fire-O95/D93/600",
+      "damage": 363.7,
+      "shield": 197.7,
+      "hyperdrive": 654.0,
+      "manoeuvrability": 457.8
+    },
+    "colours": "Dark green & black with mint-white panels, red lights, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": "Found as Recovered-3-62X."
   }
 ]
