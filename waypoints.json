@@ -375,5 +375,92 @@
     "caption": null,
     "posted": true,
     "notes": null
+  },
+  {
+    "wp": 14,
+    "system": "Hadencer",
+    "galaxy": "Euclid",
+    "ly_from_core": 1127798,
+    "jump_ly": 1993,
+    "planet_coords": "+30.55, -97.96",
+    "glyphs": "50FD7C7C97C7",
+    "found": {
+      "class": "C",
+      "slots": "33+22"
+    },
+    "s_class": {
+      "name": "Atlas-Fire-σλ",
+      "damage": 356.1,
+      "shield": 203.3,
+      "hyperdrive": 642.9,
+      "manoeuvrability": 467.8
+    },
+    "colours": "Black with dark grey panels, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": null
+  },
+  {
+    "wp": 15,
+    "system": "Xigazeyn",
+    "galaxy": "Euclid",
+    "ly_from_core": 1125819,
+    "jump_ly": 1979,
+    "planet_coords": "+19.34, +174.13",
+    "glyphs": "604C7B7C57C3",
+    "found": {
+      "class": "B",
+      "slots": "37+26"
+    },
+    "s_class": {
+      "name": "Fire-σω",
+      "damage": 406.8,
+      "shield": 196.9,
+      "hyperdrive": 652.1,
+      "manoeuvrability": 472.3
+    },
+    "colours": "Green and black, glowing red nose block",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": "Salvage site: planet Yetriaxin Prime."
+  },
+  {
+    "wp": 16,
+    "system": "Negport-Murit",
+    "galaxy": "Euclid",
+    "ly_from_core": 1123769,
+    "jump_ly": 2050,
+    "planet_coords": "+45.81, -84.59",
+    "glyphs": "40BB7B7C17C0",
+    "found": {
+      "class": "C",
+      "slots": "32+22"
+    },
+    "s_class": {
+      "name": "Reforged-8/270",
+      "damage": 390.2,
+      "shield": 199.5,
+      "hyperdrive": 642.7,
+      "manoeuvrability": 485.9
+    },
+    "colours": "Black with dark green panels, glowing red nose",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": null
   }
 ]

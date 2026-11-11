@@ -18,5 +18,8 @@ logged one waypoint at a time.
 | [11](wp11/) | Oetsuna | 1,135,700 | 2,040 | C-class, 35+24 slots | Fire-O95/D93/600 |
 | [12](wp12/) | Eharas-Zaoyu | 1,131,694 | 4,006 | C-class, 34+23 slots | Remnant-NW2-0/BY4 |
 | [13](wp13/) | Daobeih-Renn XVIII | 1,129,791 | 1,903 | C-class, 35+24 slots | ο-Recovered |
+| [14](wp14/) | Hadencer | 1,127,798 | 1,993 | C-class, 33+22 slots | Atlas-Fire-σλ |
+| [15](wp15/) | Xigazeyn | 1,125,819 | 1,979 | B-class, 37+26 slots | Fire-σω |
+| [16](wp16/) | Negport-Murit | 1,123,769 | 2,050 | C-class, 32+22 slots | Reforged-8/270 |
 
 Data lives in [`waypoints.json`](waypoints.json).
