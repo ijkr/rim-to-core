@@ -317,5 +317,63 @@
     "caption": null,
     "posted": true,
     "notes": "Found as Recovered-3-62X."
+  },
+  {
+    "wp": 12,
+    "system": "Eharas-Zaoyu",
+    "galaxy": "Euclid",
+    "ly_from_core": 1131694,
+    "jump_ly": 4006,
+    "planet_coords": "+42.97, -175.82",
+    "glyphs": "500F7C7D07CD",
+    "found": {
+      "class": "C",
+      "slots": "34+23"
+    },
+    "s_class": {
+      "name": "Remnant-NW2-0/BY4",
+      "damage": 339.0,
+      "shield": 189.5,
+      "hyperdrive": 649.6,
+      "manoeuvrability": 462.0
+    },
+    "colours": "Cream/tan with black, red light strip, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": null
+  },
+  {
+    "wp": 13,
+    "system": "Daobeih-Renn XVIII",
+    "galaxy": "Euclid",
+    "ly_from_core": 1129791,
+    "jump_ly": 1903,
+    "planet_coords": "-36.21, +74.75",
+    "glyphs": "20617C7CD7CA",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "ο-Recovered",
+      "damage": 386.0,
+      "shield": 198.2,
+      "hyperdrive": 648.1,
+      "manoeuvrability": 480.3
+    },
+    "colours": "Black with red/orange engine block, red light strips, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": null
   }
 ]

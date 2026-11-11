@@ -16,5 +16,7 @@ logged one waypoint at a time.
 | [9](wp09/) | Besanour | 1,139,607 | 1,862 | B-class, 35+24 slots | θ-Salvaged |
 | [10](wp10/) | Uchuor-Unbun | 1,137,740 | 1,867 | A-class, 39+28 slots | Atlas-Fire-μα |
 | [11](wp11/) | Oetsuna | 1,135,700 | 2,040 | C-class, 35+24 slots | Fire-O95/D93/600 |
+| [12](wp12/) | Eharas-Zaoyu | 1,131,694 | 4,006 | C-class, 34+23 slots | Remnant-NW2-0/BY4 |
+| [13](wp13/) | Daobeih-Renn XVIII | 1,129,791 | 1,903 | C-class, 35+24 slots | ο-Recovered |
 
 Data lives in [`waypoints.json`](waypoints.json).
