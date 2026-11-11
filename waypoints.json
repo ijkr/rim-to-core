@@ -462,5 +462,121 @@
     "caption": null,
     "posted": true,
     "notes": null
+  },
+  {
+    "wp": 17,
+    "system": "Bushceh-Elun",
+    "galaxy": "Euclid",
+    "ly_from_core": 1121711,
+    "jump_ly": 2058,
+    "planet_coords": "+32.86, +72.82",
+    "glyphs": "20FF7B7BD7BD",
+    "found": {
+      "class": "C",
+      "slots": "34+24"
+    },
+    "s_class": {
+      "name": "Remnant-πψ",
+      "damage": 373.3,
+      "shield": 201.4,
+      "hyperdrive": 654.8,
+      "manoeuvrability": 488.6
+    },
+    "colours": "Blue with yellow centre and black/grey panels, magenta thrusters, red nose glow",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": null
+  },
+  {
+    "wp": 18,
+    "system": "Nutwick V",
+    "galaxy": "Euclid",
+    "ly_from_core": 1119848,
+    "jump_ly": 1863,
+    "planet_coords": "-53.72, +118.11",
+    "glyphs": "12047B7BA7B9",
+    "found": {
+      "class": "C",
+      "slots": "34+24"
+    },
+    "s_class": {
+      "name": "φ-Hunter",
+      "damage": 358.8,
+      "shield": 193.4,
+      "hyperdrive": 659.8,
+      "manoeuvrability": 443.1
+    },
+    "colours": "Orange and black with white-grey wing trim, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": "Extreme weather salvage site (31.7 Rad protection)."
+  },
+  {
+    "wp": 19,
+    "system": "Alachy-Guc",
+    "galaxy": "Euclid",
+    "ly_from_core": 1117880,
+    "jump_ly": 1968,
+    "planet_coords": "-3.99, +40.37",
+    "glyphs": "31B97B7B67B6",
+    "found": {
+      "class": "B",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "Purged-ηκ",
+      "damage": 374.0,
+      "shield": 191.3,
+      "hyperdrive": 639.7,
+      "manoeuvrability": 457.7
+    },
+    "colours": "Yellow-orange and black with white underside trim, magenta thrusters, red nose glow",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": "Hot salvage site (94.8 C)."
+  },
+  {
+    "wp": 20,
+    "system": "Amotom-Toc",
+    "galaxy": "Euclid",
+    "ly_from_core": 1115838,
+    "jump_ly": 2042,
+    "planet_coords": "+20.93, -117.82",
+    "glyphs": "218D7B7B27B3",
+    "found": {
+      "class": "B",
+      "slots": "36+25"
+    },
+    "s_class": {
+      "name": "Recovered-ι",
+      "damage": 405.3,
+      "shield": 195.9,
+      "hyperdrive": 648.3,
+      "manoeuvrability": 475.7
+    },
+    "colours": "Coral red and black with white-mint trim, red nose glow, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": true,
+    "notes": "Toxic salvage site (67.2 Tox)."
   }
 ]

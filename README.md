@@ -21,5 +21,9 @@ logged one waypoint at a time.
 | [14](wp14/) | Hadencer | 1,127,798 | 1,993 | C-class, 33+22 slots | Atlas-Fire-σλ |
 | [15](wp15/) | Xigazeyn | 1,125,819 | 1,979 | B-class, 37+26 slots | Fire-σω |
 | [16](wp16/) | Negport-Murit | 1,123,769 | 2,050 | C-class, 32+22 slots | Reforged-8/270 |
+| [17](wp17/) | Bushceh-Elun | 1,121,711 | 2,058 | C-class, 34+24 slots | Remnant-πψ |
+| [18](wp18/) | Nutwick V | 1,119,848 | 1,863 | C-class, 34+24 slots | φ-Hunter |
+| [19](wp19/) | Alachy-Guc | 1,117,880 | 1,968 | B-class, 38+27 slots | Purged-ηκ |
+| [20](wp20/) | Amotom-Toc | 1,115,838 | 2,042 | B-class, 36+25 slots | Recovered-ι |
 
 Data lives in [`waypoints.json`](waypoints.json).
