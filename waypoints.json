@@ -636,5 +636,34 @@
     "caption": null,
     "posted": false,
     "notes": null
+  },
+  {
+    "wp": 23,
+    "system": "Tuvaley VI",
+    "galaxy": "Euclid",
+    "ly_from_core": 1110138,
+    "jump_ly": 1839,
+    "planet_coords": "+23.85, +175.59",
+    "glyphs": "407D7A7A77AA",
+    "found": {
+      "class": "B",
+      "slots": "39+27"
+    },
+    "s_class": {
+      "name": "Blessing-αx",
+      "damage": 397.4,
+      "shield": 205.5,
+      "hyperdrive": 631.7,
+      "manoeuvrability": 498.0
+    },
+    "colours": "Olive green and black with red top panels, red thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
   }
 ]

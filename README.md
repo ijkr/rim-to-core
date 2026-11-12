@@ -27,5 +27,6 @@ logged one waypoint at a time.
 | [20](wp20/) | Amotom-Toc | 1,115,838 | 2,042 | B-class, 36+25 slots | Recovered-ι |
 | [21](wp21/) | Tamman-AMQ V | 1,113,997 | 1,841 | C-class, 32+22 slots | κ-Salvaged |
 | [22](wp22/) | Egutays | 1,111,977 | 2,020 | C-class, 32+22 slots | Blessing-BF4/ZU0 |
+| [23](wp23/) | Tuvaley VI | 1,110,138 | 1,839 | B-class, 39+27 slots | Blessing-αx |
 
 Data lives in [`waypoints.json`](waypoints.json).
