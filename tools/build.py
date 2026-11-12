@@ -42,6 +42,9 @@ SOCIAL_LINKS = (
     ("Instagram", "https://www.instagram.com/rimtocore/"),
     ("Mastodon", "https://mastodon.social/@rimtocore"),
 )
+KOFI_URL = "https://ko-fi.com/pelicanism"
+TIP_REASON = "Every tip helps me keep hunting Sentinel ships toward the core. A$1 is plenty."
+TIP_EASE = "Optional, takes a few seconds, no sign-up needed."
 SITE_TITLE = "Rim to Core"
 SITE_DESCRIPTION = (
     "A journey from the galactic rim to the core of Euclid in No Man's Sky, "
@@ -110,6 +113,16 @@ def social_links():
     return " · ".join(f'<a href="{url}" rel="me">{name}</a>' for name, url in SOCIAL_LINKS)
 
 
+def tip_button(placement):
+    # A plain link, not Ko-fi's widget script, so the page stays fast.
+    # data-placement lets analytics tell the buttons apart.
+    return (
+        f'<a class="tip-button" href="{KOFI_URL}" target="_blank" rel="noopener noreferrer" '
+        f'data-placement="{placement}">Fuel the journey <span aria-hidden="true">☕</span>'
+        '<span class="visually-hidden"> – tip on Ko-fi (opens in a new tab)</span></a>'
+    )
+
+
 def site_page(title, description, root, body):
     return f"""<!doctype html>
 <html lang="en">
@@ -124,7 +137,7 @@ def site_page(title, description, root, body):
 <body>
 {body}
 <footer class="footer">
-  <p class="social">Follow the journey: {social_links()}</p>
+  <p class="social">Follow the journey: {social_links()} · <a href="{KOFI_URL}" target="_blank" rel="noopener noreferrer" data-placement="footer">Tip on Ko-fi<span class="visually-hidden"> (opens in a new tab)</span></a></p>
   <p>Screenshots from No Man's Sky by Hello Games. A fan project, not affiliated with the studio.</p>
   <p><button class="link-button" id="consent-settings" type="button" hidden>Analytics settings</button></p>
 </footer>
@@ -171,6 +184,10 @@ def index_html(waypoints):
   <div class="hero-text">
     <h1>{SITE_TITLE}</h1>
     <p class="lede">{escape(SITE_DESCRIPTION)}</p>
+    <div class="tip">
+      {tip_button("hero")}
+      <p class="tip-note">{escape(TIP_REASON)} <span class="tip-ease">{TIP_EASE}</span></p>
+    </div>
     <a class="latest" href="{slug}/">Latest: {escape(latest['system'])} &rarr;</a>
   </div>
 </header>
@@ -192,6 +209,11 @@ def index_html(waypoints):
     <ol class="cards">
 {cards}
     </ol>
+  </section>
+  <section class="tip-panel" aria-labelledby="tip-heading">
+    <h2 id="tip-heading">Enjoying the ride?</h2>
+    <p class="tip-note">{escape(TIP_REASON)} <span class="tip-ease">{TIP_EASE}</span></p>
+    {tip_button("after-waypoints")}
   </section>
 </main>"""
     return site_page(SITE_TITLE, SITE_DESCRIPTION, "", body)

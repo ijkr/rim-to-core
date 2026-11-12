@@ -73,17 +73,65 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
   font-size: clamp(1.05rem, 2vw, 1.25rem);
 }
 
+/* Secondary link, so the tip button stays the one strong call to action. */
 .latest {
   display: inline-block;
-  padding: 10px 18px;
-  border-radius: 6px;
-  background: var(--accent);
-  color: #17120a;
+  margin-top: 18px;
+  color: var(--text);
   font-weight: 600;
-  text-decoration: none;
+  text-underline-offset: 4px;
 }
 
-.latest:hover { background: #ffd07a; }
+.latest:hover { color: var(--accent); }
+
+/* Ko-fi tip */
+.tip { max-width: 34em; }
+
+.tip-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 12px 28px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #17120a;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 6px 24px rgba(242, 184, 75, 0.35);
+  transition: background 0.15s, transform 0.15s;
+}
+
+.tip-button:hover { background: #ffd07a; transform: translateY(-1px); }
+
+.tip-button:focus-visible { outline: 3px solid var(--text); outline-offset: 4px; }
+
+.tip-note { margin: 12px 0 0; font-size: 0.95rem; }
+
+.tip-ease { display: block; color: var(--muted); font-size: 0.85rem; }
+
+.tip-panel {
+  margin-top: 56px;
+  padding: 32px 24px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  text-align: center;
+}
+
+.tip-panel h2 { font-size: 1.5rem; }
+
+.tip-panel .tip-note { max-width: 32em; margin: 10px auto 20px; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 
 /* Shared page column */
 .page {
