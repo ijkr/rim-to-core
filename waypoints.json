@@ -344,7 +344,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": null
   },
   {
@@ -373,7 +373,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": null
   },
   {
@@ -402,7 +402,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": null
   },
   {
@@ -431,7 +431,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": "Salvage site: planet Yetriaxin Prime."
   },
   {
@@ -460,7 +460,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": null
   },
   {
@@ -489,7 +489,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": null
   },
   {
@@ -518,7 +518,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": "Extreme weather salvage site (31.7 Rad protection)."
   },
   {
@@ -547,7 +547,7 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": "Hot salvage site (94.8 C)."
   },
   {
@@ -576,7 +576,65 @@
       "upgrade"
     ],
     "caption": null,
-    "posted": true,
+    "posted": false,
     "notes": "Toxic salvage site (67.2 Tox)."
+  },
+  {
+    "wp": 21,
+    "system": "Tamman-AMQ V",
+    "galaxy": "Euclid",
+    "ly_from_core": 1113997,
+    "jump_ly": 1841,
+    "planet_coords": "+4.72, +154.19",
+    "glyphs": "10A17A7AE7B1",
+    "found": {
+      "class": "C",
+      "slots": "32+22"
+    },
+    "s_class": {
+      "name": "κ-Salvaged",
+      "damage": 339.5,
+      "shield": 199.8,
+      "hyperdrive": 638.4,
+      "manoeuvrability": 472.5
+    },
+    "colours": "Yellow and crimson with black cockpit, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 22,
+    "system": "Egutays",
+    "galaxy": "Euclid",
+    "ly_from_core": 1111977,
+    "jump_ly": 2020,
+    "planet_coords": "-59.62, +19.33",
+    "glyphs": "60097A7AB7AD",
+    "found": {
+      "class": "C",
+      "slots": "32+22"
+    },
+    "s_class": {
+      "name": "Blessing-BF4/ZU0",
+      "damage": 403.5,
+      "shield": 206.0,
+      "hyperdrive": 648.6,
+      "manoeuvrability": 502.4
+    },
+    "colours": "White with red stripe detail and black trim, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
   }
 ]

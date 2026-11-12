@@ -25,5 +25,7 @@ logged one waypoint at a time.
 | [18](wp18/) | Nutwick V | 1,119,848 | 1,863 | C-class, 34+24 slots | φ-Hunter |
 | [19](wp19/) | Alachy-Guc | 1,117,880 | 1,968 | B-class, 38+27 slots | Purged-ηκ |
 | [20](wp20/) | Amotom-Toc | 1,115,838 | 2,042 | B-class, 36+25 slots | Recovered-ι |
+| [21](wp21/) | Tamman-AMQ V | 1,113,997 | 1,841 | C-class, 32+22 slots | κ-Salvaged |
+| [22](wp22/) | Egutays | 1,111,977 | 2,020 | C-class, 32+22 slots | Blessing-BF4/ZU0 |
 
 Data lives in [`waypoints.json`](waypoints.json).
