@@ -665,5 +665,63 @@
     "caption": null,
     "posted": false,
     "notes": null
+  },
+  {
+    "wp": 24,
+    "system": "Imechn-Rafa XVI",
+    "galaxy": "Euclid",
+    "ly_from_core": 1108168,
+    "jump_ly": 1970,
+    "planet_coords": "+19.84, +78.76",
+    "glyphs": "41917A7A47A6",
+    "found": {
+      "class": "A",
+      "slots": "40+28"
+    },
+    "s_class": {
+      "name": "Reforged-υα",
+      "damage": 401.3,
+      "shield": 194.8,
+      "hyperdrive": 652.3,
+      "manoeuvrability": 475.0
+    },
+    "colours": "Black with coral red wings, red glow, magenta thruster",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 25,
+    "system": "Lucheoka",
+    "galaxy": "Euclid",
+    "ly_from_core": 1106294,
+    "jump_ly": 1874,
+    "planet_coords": "+64.15, -132.97",
+    "glyphs": "10D5797A17A3",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Fire-φ",
+      "damage": 400.7,
+      "shield": 194.4,
+      "hyperdrive": 659.3,
+      "manoeuvrability": 486.5
+    },
+    "colours": "Teal/green and black with orange panel accents, magenta thrusters, red lights",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Crimson-W27/67I."
   }
 ]

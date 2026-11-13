@@ -28,5 +28,7 @@ logged one waypoint at a time.
 | [21](wp21/) | Tamman-AMQ V | 1,113,997 | 1,841 | C-class, 32+22 slots | κ-Salvaged |
 | [22](wp22/) | Egutays | 1,111,977 | 2,020 | C-class, 32+22 slots | Blessing-BF4/ZU0 |
 | [23](wp23/) | Tuvaley VI | 1,110,138 | 1,839 | B-class, 39+27 slots | Blessing-αx |
+| [24](wp24/) | Imechn-Rafa XVI | 1,108,168 | 1,970 | A-class, 40+28 slots | Reforged-υα |
+| [25](wp25/) | Lucheoka | 1,106,294 | 1,874 | C-class, 35+24 slots | Fire-φ |
 
 Data lives in [`waypoints.json`](waypoints.json).
