@@ -30,5 +30,10 @@ logged one waypoint at a time.
 | [23](wp23/) | Tuvaley VI | 1,110,138 | 1,839 | B-class, 39+27 slots | Blessing-αx |
 | [24](wp24/) | Imechn-Rafa XVI | 1,108,168 | 1,970 | A-class, 40+28 slots | Reforged-υα |
 | [25](wp25/) | Lucheoka | 1,106,294 | 1,874 | C-class, 35+24 slots | Fire-φ |
+| [26](wp26/) | Ionart | 1,104,248 | 2,046 | A-class, 39+27 slots | Flame-W/G-Q9 |
+| [27](wp27/) | Eceles VI | 1,102,428 | 1,820 | C-class, 34+23 slots | Aeron-D1-MI4 |
+| [28](wp28/) | Aniiati-Luoy XIV | 1,100,385 | 2,043 | C-class, 35+24 slots | Blessed-μδ |
+| [29](wp29/) | Rehnqu | 1,098,414 | 1,971 | A-class, 40+28 slots | Fire-φξ |
+| [30](wp30/) | Cixing | 1,096,425 | 1,989 | C-class, 34+24 slots | Purged-κ |
 
 Data lives in [`waypoints.json`](waypoints.json).

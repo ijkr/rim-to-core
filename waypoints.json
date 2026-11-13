@@ -723,5 +723,150 @@
     "caption": null,
     "posted": false,
     "notes": "Found as Crimson-W27/67I."
+  },
+  {
+    "wp": 26,
+    "system": "Ionart",
+    "galaxy": "Euclid",
+    "ly_from_core": 1104248,
+    "jump_ly": 2046,
+    "planet_coords": "-19.07, -44.78",
+    "glyphs": "503B7879D79F",
+    "found": {
+      "class": "A",
+      "slots": "39+27"
+    },
+    "s_class": {
+      "name": "Flame-W/G-Q9",
+      "damage": 423.6,
+      "shield": 190.8,
+      "hyperdrive": 657.2,
+      "manoeuvrability": 442.7
+    },
+    "colours": "White wings with black body and orange top panels, red lights, magenta thruster glow in blue frame",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 27,
+    "system": "Eceles VI",
+    "galaxy": "Euclid",
+    "ly_from_core": 1102428,
+    "jump_ly": 1820,
+    "planet_coords": "-46.73, -135.98",
+    "glyphs": "60FE7879A79C",
+    "found": {
+      "class": "C",
+      "slots": "34+23"
+    },
+    "s_class": {
+      "name": "Aeron-D1-MI4",
+      "damage": 407.6,
+      "shield": 202.3,
+      "hyperdrive": 644.2,
+      "manoeuvrability": 470.3
+    },
+    "colours": "Orange with dark green panels, black nose with red lights, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 28,
+    "system": "Aniiati-Luoy XIV",
+    "galaxy": "Euclid",
+    "ly_from_core": 1100385,
+    "jump_ly": 2043,
+    "planet_coords": "-31.44, +2.22",
+    "glyphs": "21E377796798",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Blessed-μδ",
+      "damage": 407.3,
+      "shield": 197.8,
+      "hyperdrive": 645.0,
+      "manoeuvrability": 484.3
+    },
+    "colours": "Black with yellow-orange wings and underside, glowing red nose slash, teal/green accents, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 29,
+    "system": "Rehnqu",
+    "galaxy": "Euclid",
+    "ly_from_core": 1098414,
+    "jump_ly": 1971,
+    "planet_coords": "+5.85, +119.50",
+    "glyphs": "217F77793795",
+    "found": {
+      "class": "A",
+      "slots": "40+28"
+    },
+    "s_class": {
+      "name": "Fire-φξ",
+      "damage": 390.1,
+      "shield": 192.0,
+      "hyperdrive": 641.4,
+      "manoeuvrability": 486.3
+    },
+    "colours": "Black with white canopy and red stripe, glowing red nose, green wing accent, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 30,
+    "system": "Cixing",
+    "galaxy": "Euclid",
+    "ly_from_core": 1096425,
+    "jump_ly": 1989,
+    "planet_coords": "+52.58, +142.04",
+    "glyphs": "50947778F792",
+    "found": {
+      "class": "C",
+      "slots": "34+24"
+    },
+    "s_class": {
+      "name": "Purged-κ",
+      "damage": 373.1,
+      "shield": 200.8,
+      "hyperdrive": 656.2,
+      "manoeuvrability": 476.6
+    },
+    "colours": "Orange and white with black nose, red lights, blue canopy glow",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
   }
 ]
