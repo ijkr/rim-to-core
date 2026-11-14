@@ -868,5 +868,179 @@
     "caption": null,
     "posted": false,
     "notes": null
+  },
+  {
+    "wp": 31,
+    "system": "Gasgeist XIX",
+    "galaxy": "Euclid",
+    "ly_from_core": 1094364,
+    "jump_ly": 2061,
+    "planet_coords": "-88.32, +90.53",
+    "glyphs": "514C7678B78E",
+    "found": {
+      "class": "A",
+      "slots": "40+28"
+    },
+    "s_class": {
+      "name": "Blessing-E-B28",
+      "damage": 381.7,
+      "shield": 189.4,
+      "hyperdrive": 650.2,
+      "manoeuvrability": 470.0
+    },
+    "colours": "Yellow and black with red stripes, red lights",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 32,
+    "system": "Devidiu",
+    "galaxy": "Euclid",
+    "ly_from_core": 1092493,
+    "jump_ly": 1871,
+    "planet_coords": "+34.19, +13.58",
+    "glyphs": "21147678878B",
+    "found": {
+      "class": "C",
+      "slots": "33+23"
+    },
+    "s_class": {
+      "name": "Shard-κ",
+      "damage": 352.4,
+      "shield": 191.5,
+      "hyperdrive": 660.2,
+      "manoeuvrability": 437.9
+    },
+    "colours": "Orange with black nose, white and blue canopy panel",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 33,
+    "system": "Tuyrnyan",
+    "galaxy": "Euclid",
+    "ly_from_core": 1090677,
+    "jump_ly": 1816,
+    "planet_coords": "+0.96, +131.90",
+    "glyphs": "21E976784788",
+    "found": {
+      "class": "C",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "π-Hope",
+      "damage": 413.7,
+      "shield": 196.2,
+      "hyperdrive": 648.4,
+      "manoeuvrability": 481.2
+    },
+    "colours": "Silver-white with red stripes and black panels",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": null
+  },
+  {
+    "wp": 34,
+    "system": "Sopinen",
+    "galaxy": "Euclid",
+    "ly_from_core": 1088628,
+    "jump_ly": 2049,
+    "planet_coords": "+17.36, -57.95",
+    "glyphs": "219F75781784",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Hope-9-U83-O",
+      "damage": 405.3,
+      "shield": 201.2,
+      "hyperdrive": 645.9,
+      "manoeuvrability": 482.9
+    },
+    "colours": "Yellow and black, cream canopy and wings, glowing red nose, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as π-Blessed."
+  },
+  {
+    "wp": 35,
+    "system": "Mobokuch VI",
+    "galaxy": "Euclid",
+    "ly_from_core": 1086561,
+    "jump_ly": 2067,
+    "planet_coords": "+41.46, -164.27",
+    "glyphs": "10ED7577D781",
+    "found": {
+      "class": "B",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "β-Blessed",
+      "damage": 430.7,
+      "shield": 190.9,
+      "hyperdrive": 650.6,
+      "manoeuvrability": 476.1
+    },
+    "colours": "Yellow and black with red top panels, glowing red nose, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Salvaged-W29-14C."
+  },
+  {
+    "wp": 36,
+    "system": "Limdali I",
+    "galaxy": "Euclid",
+    "ly_from_core": 1082658,
+    "jump_ly": 3903,
+    "planet_coords": "+28.14, -14.95",
+    "glyphs": "10557477677A",
+    "found": {
+      "class": "C",
+      "slots": "33+23"
+    },
+    "s_class": {
+      "name": "Reborn-D-5",
+      "damage": 395.6,
+      "shield": 205.1,
+      "hyperdrive": 638.3,
+      "manoeuvrability": 492.9
+    },
+    "colours": "Black with blue wings and tail, glowing red nose, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Purged-ψθ."
   }
 ]

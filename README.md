@@ -35,5 +35,11 @@ logged one waypoint at a time.
 | [28](wp28/) | Aniiati-Luoy XIV | 1,100,385 | 2,043 | C-class, 35+24 slots | Blessed-μδ |
 | [29](wp29/) | Rehnqu | 1,098,414 | 1,971 | A-class, 40+28 slots | Fire-φξ |
 | [30](wp30/) | Cixing | 1,096,425 | 1,989 | C-class, 34+24 slots | Purged-κ |
+| [31](wp31/) | Gasgeist XIX | 1,094,364 | 2,061 | A-class, 40+28 slots | Blessing-E-B28 |
+| [32](wp32/) | Devidiu | 1,092,493 | 1,871 | C-class, 33+23 slots | Shard-κ |
+| [33](wp33/) | Tuyrnyan | 1,090,677 | 1,816 | C-class, 38+27 slots | π-Hope |
+| [34](wp34/) | Sopinen | 1,088,628 | 2,049 | C-class, 35+24 slots | Hope-9-U83-O |
+| [35](wp35/) | Mobokuch VI | 1,086,561 | 2,067 | B-class, 38+27 slots | β-Blessed |
+| [36](wp36/) | Limdali I | 1,082,658 | 3,903 | C-class, 33+23 slots | Reborn-D-5 |
 
 Data lives in [`waypoints.json`](waypoints.json).
