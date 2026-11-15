@@ -1042,5 +1042,121 @@
     "caption": null,
     "posted": false,
     "notes": "Found as Purged-ψθ."
+  },
+  {
+    "wp": 37,
+    "system": "Urnhaloc",
+    "galaxy": "Euclid",
+    "ly_from_core": 1078529,
+    "jump_ly": 4129,
+    "planet_coords": "-20.15, +95.81",
+    "glyphs": "40E67476F773",
+    "found": {
+      "class": "C",
+      "slots": "33+23"
+    },
+    "s_class": {
+      "name": "σ-Reborn",
+      "damage": 409.8,
+      "shield": 191.1,
+      "hyperdrive": 653.7,
+      "manoeuvrability": 461.5
+    },
+    "colours": "Orange with white wings, glowing red nose, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Blessing-ττ."
+  },
+  {
+    "wp": 38,
+    "system": "Igueli-Sebad XVI",
+    "galaxy": "Euclid",
+    "ly_from_core": 1076540,
+    "jump_ly": 1989,
+    "planet_coords": "-69.50, -145.35",
+    "glyphs": "40417476B76F",
+    "found": {
+      "class": "B",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "Crimson-η",
+      "damage": 350.9,
+      "shield": 231.4,
+      "hyperdrive": 641.3,
+      "manoeuvrability": 438.0
+    },
+    "colours": "Yellow and black with white wings, glowing red nose slash, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Fire-ττ."
+  },
+  {
+    "wp": 39,
+    "system": "Ofunami",
+    "galaxy": "Euclid",
+    "ly_from_core": 1074599,
+    "jump_ly": 1941,
+    "planet_coords": "-61.81, -33.25",
+    "glyphs": "5B9F7476876C",
+    "found": {
+      "class": "B",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Hunter-ρδ",
+      "damage": 413.9,
+      "shield": 190.8,
+      "hyperdrive": 647.8,
+      "manoeuvrability": 487.7
+    },
+    "colours": "Blue and red with black cockpit, glowing red nose ring, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Crimson-φπ."
+  },
+  {
+    "wp": 40,
+    "system": "Sibirs-Aangk",
+    "galaxy": "Euclid",
+    "ly_from_core": 1072564,
+    "jump_ly": 2035,
+    "planet_coords": "+19.94, -5.15",
+    "glyphs": "319273764768",
+    "found": {
+      "class": "C",
+      "slots": "39+28"
+    },
+    "s_class": {
+      "name": "Hunter-λ",
+      "damage": 439.5,
+      "shield": 203.5,
+      "hyperdrive": 646.7,
+      "manoeuvrability": 472.4
+    },
+    "colours": "Pale grey-white with black, two long red-tipped antennae, glowing red nose slash, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Reforged-π."
   }
 ]

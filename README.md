@@ -41,5 +41,9 @@ logged one waypoint at a time.
 | [34](wp34/) | Sopinen | 1,088,628 | 2,049 | C-class, 35+24 slots | Hope-9-U83-O |
 | [35](wp35/) | Mobokuch VI | 1,086,561 | 2,067 | B-class, 38+27 slots | β-Blessed |
 | [36](wp36/) | Limdali I | 1,082,658 | 3,903 | C-class, 33+23 slots | Reborn-D-5 |
+| [37](wp37/) | Urnhaloc | 1,078,529 | 4,129 | C-class, 33+23 slots | σ-Reborn |
+| [38](wp38/) | Igueli-Sebad XVI | 1,076,540 | 1,989 | B-class, 38+27 slots | Crimson-η |
+| [39](wp39/) | Ofunami | 1,074,599 | 1,941 | B-class, 35+24 slots | Hunter-ρδ |
+| [40](wp40/) | Sibirs-Aangk | 1,072,564 | 2,035 | C-class, 39+28 slots | Hunter-λ |
 
 Data lives in [`waypoints.json`](waypoints.json).
