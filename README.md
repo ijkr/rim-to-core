@@ -45,5 +45,7 @@ logged one waypoint at a time.
 | [38](wp38/) | Igueli-Sebad XVI | 1,076,540 | 1,989 | B-class, 38+27 slots | Crimson-η |
 | [39](wp39/) | Ofunami | 1,074,599 | 1,941 | B-class, 35+24 slots | Hunter-ρδ |
 | [40](wp40/) | Sibirs-Aangk | 1,072,564 | 2,035 | C-class, 39+28 slots | Hunter-λ |
+| [41](wp41/) | Molarf-Seou | 1,070,659 | 1,905 | C-class, 35+24 slots | Fire-I/7/FD3 |
+| [42](wp42/) | Itabentv | 1,068,725 | 1,934 | B-class, 37+26 slots | Remnant-δ |
 
 Data lives in [`waypoints.json`](waypoints.json).

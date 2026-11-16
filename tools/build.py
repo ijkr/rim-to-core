@@ -23,8 +23,9 @@ THUMB_WIDTH = 640
 THUMB_QUALITY = 60
 
 # Which shot leads a waypoint, best first.
-HERO_ORDER = ("ground", "flight", "hangar", "thrusters", "upgrade")
+HERO_ORDER = ("top", "ground", "flight", "hangar", "thrusters", "upgrade")
 SHOT_LABELS = {
+    "top": "Best shot",
     "ground": "On the ground",
     "flight": "In flight",
     "hangar": "In the hangar",
@@ -37,6 +38,7 @@ GLYPH_NAMES = dict(zip("0123456789ABCDEF", (
 )))
 GLYPH_NAMES["?"] = "Unknown"
 UNKNOWN_PLANET_NOTE = "First glyph (the planet) is unknown: no ground shot at this stop."
+HIGHLIGHT_LABEL = "Best find so far"
 GTM_ID = "GTM-WTL7LBSL"
 SOCIAL_LINKS = (
     ("Instagram", "https://www.instagram.com/rimtocore/"),
@@ -158,11 +160,13 @@ def waypoint_card(w):
     slug = slug_of(w)
     change = f"{w['found']['class']} &rarr; S" if w["found"]["class"] else "S-class"
     jump = f"+{number(w['jump_ly'])} LY" if w["jump_ly"] else "Start"
+    card_class = "card card-highlight" if w.get("highlight") else "card"
+    badge = f'<p class="badge">★ {HIGHLIGHT_LABEL}</p>' if w.get("highlight") else ""
     return f"""<li>
-  <a class="card" href="{slug}/">
+  <a class="{card_class}" href="{slug}/">
     <img src="{slug}/{slug}_thumb.jpg" width="640" height="360" loading="lazy" alt="">
     <div class="card-body">
-      <p class="card-number">Waypoint {w['wp']}</p>
+      {badge}<p class="card-number">Waypoint {w['wp']}</p>
       <h3>{escape(w['system'])}</h3>
       <p class="card-ship">{escape(w['s_class']['name'])} <span class="class-change">{change}</span></p>
       <p class="card-data"><span>{number(w['ly_from_core'])} LY</span> <span>{jump}</span></p>
@@ -188,7 +192,7 @@ def index_html(waypoints):
       {tip_button("hero")}
       <p class="tip-note">{escape(TIP_REASON)} <span class="tip-ease">{TIP_EASE}</span></p>
     </div>
-    <a class="latest" href="{slug}/">Latest: {escape(latest['system'])} &rarr;</a>
+    {hero_links(latest, waypoints)}
   </div>
 </header>
 <main class="page">
@@ -217,6 +221,19 @@ def index_html(waypoints):
   </section>
 </main>"""
     return site_page(SITE_TITLE, SITE_DESCRIPTION, "", body)
+
+
+def hero_links(latest, waypoints):
+    slug = slug_of(latest)
+    if latest.get("highlight"):
+        return (f'<a class="latest" href="{slug}/">Latest: {escape(latest["system"])}, '
+                f'{HIGHLIGHT_LABEL.lower()} &rarr;</a>')
+    links = [f'<a class="latest" href="{slug}/">Latest: {escape(latest["system"])} &rarr;</a>']
+    best = [w for w in waypoints if w.get("highlight")]
+    if best:
+        b = best[-1]
+        links.append(f'<a class="latest" href="{slug_of(b)}/">{HIGHLIGHT_LABEL}: {escape(b["system"])} &rarr;</a>')
+    return " ".join(links)
 
 
 def waypoint_nav(previous, following):
@@ -274,10 +291,11 @@ def waypoint_html(w, previous, following):
             f"<figcaption>{SHOT_LABELS[shot]}</figcaption></figure>"
         )
     figures = "\n".join(figures)
+    badge = f' <span class="badge">★ {HIGHLIGHT_LABEL}</span>' if w.get("highlight") else ""
     caption = f'<p class="caption">{escape(w["caption"])}</p>' if w["caption"] else ""
     body = f"""<main class="page waypoint">
   <a class="home" href="../">&larr; {SITE_TITLE}</a>
-  <p class="eyebrow">Waypoint {w['wp']}</p>
+  <p class="eyebrow">Waypoint {w['wp']}{badge}</p>
   <h1>{escape(w['system'])}</h1>
   {caption}
   <div class="waypoint-layout">

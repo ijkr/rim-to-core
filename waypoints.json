@@ -1158,5 +1158,65 @@
     "caption": null,
     "posted": false,
     "notes": "Found as Reforged-π."
+  },
+  {
+    "wp": 41,
+    "system": "Molarf-Seou",
+    "galaxy": "Euclid",
+    "ly_from_core": 1070659,
+    "jump_ly": 1905,
+    "planet_coords": "-42.73, +162.08",
+    "glyphs": "6BC973761765",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Fire-I/7/FD3",
+      "damage": 348.4,
+      "shield": 193.0,
+      "hyperdrive": 656.8,
+      "manoeuvrability": 441.4
+    },
+    "colours": "Lime-mint green with white wings, black cockpit, red-tipped antennae, red nose slash, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Reborn-P-5."
+  },
+  {
+    "wp": 42,
+    "system": "Itabentv",
+    "galaxy": "Euclid",
+    "ly_from_core": 1068725,
+    "jump_ly": 1934,
+    "planet_coords": "-41.42, +1.71",
+    "glyphs": "32B17375D761",
+    "found": {
+      "class": "B",
+      "slots": "37+26"
+    },
+    "s_class": {
+      "name": "Remnant-δ",
+      "damage": 370.8,
+      "shield": 198.3,
+      "hyperdrive": 653.2,
+      "manoeuvrability": 466.8
+    },
+    "colours": "Yellow and black with white-silver wings, glowing red nose slash, magenta thrusters",
+    "images": [
+      "top",
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Shard-πο.",
+    "highlight": true
   }
 ]
