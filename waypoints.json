@@ -1305,5 +1305,46 @@
     "caption": null,
     "posted": false,
     "notes": "Found as Glass Soul-3G/Z32."
+  },
+  {
+    "wp": 46,
+    "system": "Hetian-Sos",
+    "galaxy": "Euclid",
+    "ly_from_core": 1060748,
+    "jump_ly": 1815,
+    "planet_coords": "-37.56, -140.03",
+    "glyphs": "204E7274F753",
+    "found": {
+      "class": "C",
+      "slots": "33+22"
+    },
+    "s_class": {
+      "name": "Burned-M67-C/GG3",
+      "damage": 340.4,
+      "shield": 192.3,
+      "hyperdrive": 634.1,
+      "manoeuvrability": 436.3
+    },
+    "colours": "Orange, olive green and black with cream wings, glowing red nose slash, magenta thrusters",
+    "images": [
+      "extra2",
+      "ground",
+      "flight",
+      "flight2",
+      "extra1",
+      "upgrade"
+    ],
+    "hero": "extra2",
+    "labels": {
+      "extra2": "Hovering",
+      "flight2": "From behind",
+      "extra1": "Low pass",
+      "upgrade": "S-class, with the 2×2 supercharged block"
+    },
+    "highlight": "4 supercharged slots",
+    "supercharged": "4, in a 2×2 block",
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Fragment-φ."
   }
 ]

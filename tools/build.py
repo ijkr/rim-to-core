@@ -31,6 +31,9 @@ SHOT_LABELS = {
     "hangar": "In the hangar",
     "thrusters": "Thrusters",
     "upgrade": "S-class",
+    "flight2": "In flight",
+    "extra1": "Extra shot",
+    "extra2": "Extra shot",
 }
 GLYPH_NAMES = dict(zip("0123456789ABCDEF", (
     "Sunset", "Bird", "Face", "Diplo", "Eclipse", "Balloon", "Boat", "Bug",
@@ -103,7 +106,19 @@ def make_thumbnail(source, dest):
 
 
 def hero_shot(w):
+    if w.get("hero"):
+        return w["hero"]
     return next(shot for shot in HERO_ORDER if shot in w["images"])
+
+
+def shot_label(w, shot):
+    return w.get("labels", {}).get(shot) or SHOT_LABELS[shot]
+
+
+def highlight_label(w):
+    """A highlight is either true (the default label) or its own label."""
+    h = w.get("highlight")
+    return h if isinstance(h, str) else HIGHLIGHT_LABEL if h else None
 
 
 def slug_of(w):
@@ -161,7 +176,7 @@ def waypoint_card(w):
     change = f"{w['found']['class']} &rarr; S" if w["found"]["class"] else "S-class"
     jump = f"+{number(w['jump_ly'])} LY" if w["jump_ly"] else "Start"
     card_class = "card card-highlight" if w.get("highlight") else "card"
-    badge = f'<p class="badge">★ {HIGHLIGHT_LABEL}</p>' if w.get("highlight") else ""
+    badge = f'<p class="badge">★ {escape(highlight_label(w))}</p>' if w.get("highlight") else ""
     return f"""<li>
   <a class="{card_class}" href="{slug}/">
     <img src="{slug}/{slug}_thumb.jpg" width="640" height="360" loading="lazy" alt="">
@@ -182,7 +197,7 @@ def index_html(waypoints):
     percent = travelled / first["ly_from_core"] * 100
     cards = "\n".join(waypoint_card(w) for w in reversed(waypoints))
     hero = hero_shot(latest)
-    hero_alt = escape(f"{SHOT_LABELS[hero]}: {latest['s_class']['name']} at {latest['system']}")
+    hero_alt = escape(f"{shot_label(latest, hero)}: {latest['s_class']['name']} at {latest['system']}")
     body = f"""<header class="hero">
   <img class="hero-image" src="{slug}/{slug}_{hero}.jpg" width="1600" height="900" alt="{hero_alt}">
   <div class="hero-text">
@@ -224,15 +239,14 @@ def index_html(waypoints):
 
 
 def hero_links(latest, waypoints):
+    """Link the latest waypoint, then the two most recent earlier highlights."""
     slug = slug_of(latest)
-    if latest.get("highlight"):
-        return (f'<a class="latest" href="{slug}/">Latest: {escape(latest["system"])}, '
-                f'{HIGHLIGHT_LABEL.lower()} &rarr;</a>')
-    links = [f'<a class="latest" href="{slug}/">Latest: {escape(latest["system"])} &rarr;</a>']
-    best = [w for w in waypoints if w.get("highlight")]
-    if best:
-        b = best[-1]
-        links.append(f'<a class="latest" href="{slug_of(b)}/">{HIGHLIGHT_LABEL}: {escape(b["system"])} &rarr;</a>')
+    extra = f", {escape(highlight_label(latest).lower())}" if latest.get("highlight") else ""
+    links = [f'<a class="latest" href="{slug}/">Latest: {escape(latest["system"])}{extra}&nbsp;&rarr;</a>']
+    earlier = [w for w in waypoints if w.get("highlight") and w is not latest][-2:]
+    for w in reversed(earlier):
+        links.append(f'<a class="latest" href="{slug_of(w)}/">{escape(highlight_label(w))}: '
+                     f'{escape(w["system"])}&nbsp;&rarr;</a>')
     return " ".join(links)
 
 
@@ -269,6 +283,7 @@ def waypoint_html(w, previous, following):
         ("Jump from previous", jump),
         ("Planet coordinates", w["planet_coords"]),
         ("Ship as found", found),
+        ("Supercharged slots", w.get("supercharged")),
         ("S-class ship", s["name"]),
         ("Damage", s["damage"]),
         ("Shield", s["shield"]),
@@ -285,13 +300,13 @@ def waypoint_html(w, previous, following):
     figures = []
     for shot in shots:
         loading = "" if shot == hero else ' loading="lazy"'
-        alt = escape(f"{SHOT_LABELS[shot]}: {s['name']} at {w['system']}")
+        alt = escape(f"{shot_label(w, shot)}: {s['name']} at {w['system']}")
         figures.append(
             f'<figure><img src="{slug}_{shot}.jpg" width="1600" height="900"{loading} alt="{alt}">'
-            f"<figcaption>{SHOT_LABELS[shot]}</figcaption></figure>"
+            f"<figcaption>{escape(shot_label(w, shot))}</figcaption></figure>"
         )
     figures = "\n".join(figures)
-    badge = f' <span class="badge">★ {HIGHLIGHT_LABEL}</span>' if w.get("highlight") else ""
+    badge = f' <span class="badge">★ {escape(highlight_label(w))}</span>' if w.get("highlight") else ""
     caption = f'<p class="caption">{escape(w["caption"])}</p>' if w["caption"] else ""
     body = f"""<main class="page waypoint">
   <a class="home" href="../">&larr; {SITE_TITLE}</a>

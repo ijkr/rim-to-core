@@ -50,5 +50,6 @@ logged one waypoint at a time.
 | [43](wp43/) | Eklusko-Xoka | 1,066,670 | 2,055 | A-class, 38+27 slots | Flame-ρν |
 | [44](wp44/) | Avirken-Aech | 1,064,606 | 2,064 | C-class, 35+24 slots | Atlas-Fire-ψκ |
 | [45](wp45/) | Aitungri | 1,062,563 | 2,043 | B-class, 37+26 slots | Glass Soul-εδ |
+| [46](wp46/) | Hetian-Sos | 1,060,748 | 1,815 | C-class, 33+22 slots | Burned-M67-C/GG3 |
 
 Data lives in [`waypoints.json`](waypoints.json).

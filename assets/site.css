@@ -390,4 +390,9 @@ h1, h2, h3 { line-height: 1.15; margin: 0; }
 
 .card-highlight { border-color: var(--accent); }
 
-.latest + .latest { margin-left: 20px; }
+.latest { margin-right: 20px; }
+
+/* Keeps hero text readable over bright images. */
+.hero-text { text-shadow: 0 1px 14px rgba(11, 13, 20, 0.6); }
+
+.hero-text .tip-button { text-shadow: none; }
