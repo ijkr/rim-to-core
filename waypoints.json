@@ -1218,5 +1218,92 @@
     "posted": false,
     "notes": "Found as Shard-πο.",
     "highlight": true
+  },
+  {
+    "wp": 43,
+    "system": "Eklusko-Xoka",
+    "galaxy": "Euclid",
+    "ly_from_core": 1066670,
+    "jump_ly": 2055,
+    "planet_coords": "-45.00, -90.20",
+    "glyphs": "407E7375A75E",
+    "found": {
+      "class": "A",
+      "slots": "38+27"
+    },
+    "s_class": {
+      "name": "Flame-ρν",
+      "damage": 432.5,
+      "shield": 198.7,
+      "hyperdrive": 656.4,
+      "manoeuvrability": 488.3
+    },
+    "colours": "Black with green spine panels, glowing red-orange nose, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as θ-Purged."
+  },
+  {
+    "wp": 44,
+    "system": "Avirken-Aech",
+    "galaxy": "Euclid",
+    "ly_from_core": 1064606,
+    "jump_ly": 2064,
+    "planet_coords": "-4.35, -109.38",
+    "glyphs": "603B7375675A",
+    "found": {
+      "class": "C",
+      "slots": "35+24"
+    },
+    "s_class": {
+      "name": "Atlas-Fire-ψκ",
+      "damage": 371.3,
+      "shield": 199.4,
+      "hyperdrive": 633.5,
+      "manoeuvrability": 484.9
+    },
+    "colours": "Silver-white with black cockpit, glowing red cross on the nose, red stripe trim, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Salvaged-X/E72-I60."
+  },
+  {
+    "wp": 45,
+    "system": "Aitungri",
+    "galaxy": "Euclid",
+    "ly_from_core": 1062563,
+    "jump_ly": 2043,
+    "planet_coords": "-67.11, -98.57",
+    "glyphs": "613773752757",
+    "found": {
+      "class": "B",
+      "slots": "37+26"
+    },
+    "s_class": {
+      "name": "Glass Soul-εδ",
+      "damage": 356.9,
+      "shield": 193.7,
+      "hyperdrive": 634.7,
+      "manoeuvrability": 473.2
+    },
+    "colours": "Red and black with orange-red wing panels, glowing red nose slash, magenta thrusters",
+    "images": [
+      "ground",
+      "flight",
+      "upgrade"
+    ],
+    "caption": null,
+    "posted": false,
+    "notes": "Found as Glass Soul-3G/Z32."
   }
 ]

@@ -47,5 +47,8 @@ logged one waypoint at a time.
 | [40](wp40/) | Sibirs-Aangk | 1,072,564 | 2,035 | C-class, 39+28 slots | Hunter-λ |
 | [41](wp41/) | Molarf-Seou | 1,070,659 | 1,905 | C-class, 35+24 slots | Fire-I/7/FD3 |
 | [42](wp42/) | Itabentv | 1,068,725 | 1,934 | B-class, 37+26 slots | Remnant-δ |
+| [43](wp43/) | Eklusko-Xoka | 1,066,670 | 2,055 | A-class, 38+27 slots | Flame-ρν |
+| [44](wp44/) | Avirken-Aech | 1,064,606 | 2,064 | C-class, 35+24 slots | Atlas-Fire-ψκ |
+| [45](wp45/) | Aitungri | 1,062,563 | 2,043 | B-class, 37+26 slots | Glass Soul-εδ |
 
 Data lives in [`waypoints.json`](waypoints.json).
